@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column; /*içeriğin dikey sütün şeklinde olmasını sağlar*/
+    justify-content: center; /*içerik dikey şekilde ortalnaır*/
+    align-items: center;
+    width: 200px;/*genişliği 200px olarak ayarlanır*/
+    padding:20px; /*20px boşluk bırakır*/
+    background-color: rgba(0,0,0.8);
+    color: #fff;
+}
+
+#text{
+    font: 125% 'Poppins',sans-serif; /*poppins yazı tipi demek*/
+}
+#btn{
+    font:100% 'Poppins',sans-serif;
+    margin: 10px 0;/*20px üst ve alt kenarlara 0 değeri ise sol ve sağ kenarlara boşluk atmaz*/
+    padding: 10px 20px; /*10px değeriüst ve alta 20px değeri sol ve sağ kenarlara bırakır*/
+    cursor: pointer;/*fare imlecini öğenin üzerine geldiğinde bir "işaretçi" şeklinde değiştirir. */
+}
